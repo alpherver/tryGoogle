@@ -1,0 +1,39 @@
+/* Sayfa genişliği 600 pikselden küçükse */
+@media screen and (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  
+.body{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.islem {
+    text-align: center;
+}
+.GoogleResim {
+    width: 351px;
+    height: 113px;
+    margin:auto;
+}
+
+table {
+    width: 90%;
+    margin: 0 0 0 3%;
+    border-width: 2px;
+
+}
+
+.search-bar {
+    background-color: rgb(238, 238, 238);
+    text-align: center;
+    
+}
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+    font-size: small;
+}
